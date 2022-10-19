@@ -1,0 +1,115 @@
+.nav-link {
+    color: #e9ecef;
+    text-decoration: none;
+
+
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #cca000;
+}
+
+.navbar-brand {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:#ffc800;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("assets/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+  
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 768px) {
+    header.masthead {
+      
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.25rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+   
+    font-weight: 700;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #d9aa00;
+    border-color: #cca000;
+  }
+
+
+  .page-section {
+    padding: 6rem 0;
+  }
+
+
+  .page-section h2.section-heading{  
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .page-section h3.section-subheading{
+
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+
+    margin-bottom: 4rem;
+  }
+
+
+  
