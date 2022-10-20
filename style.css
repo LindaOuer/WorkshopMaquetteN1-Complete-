@@ -33,7 +33,7 @@
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("assets/header-bg.jpg");
+    background-image: url("assets/header-bg.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -91,6 +91,7 @@
   }
 
 
+
   .page-section {
     padding: 6rem 0;
   }
@@ -111,5 +112,26 @@
     margin-bottom: 4rem;
   }
 
-
+  .team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
   
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 1.25rem;
+  }
+
+  .form-group-textarea {
+    height: 100%;
+  }
+
+  .form-group-textarea textarea {
+    height: 100%;
+    min-height: 10rem;
+  }
