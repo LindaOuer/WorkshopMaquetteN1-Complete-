@@ -1,0 +1,115 @@
+.navbar {
+  height: 112px;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "League Gothic", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.rectangle {
+  background-color: white;
+  height: 112px;
+  width: 122px;
+  padding-top: 0rem;
+}
+
+.center {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+  text-align: center;
+  color: white;
+  background-image: url("../assets/banner.png");
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 30rem;
+    padding-bottom: 40rem;
+  }
+}
+.page-footer {
+  background-color: #e4bc01;
+  height: 174px;
+}
+
+.about {
+  font-size: 1.2rem;
+  font-family: "League Gothic", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.lorem {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.page-section {
+  min-height: 370px;
+  background-color: #3a0a1d;
+}
+
+.container1 {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.container-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text-container {
+  font-size: 17px;
+  color: #eaeaea;
+  font-family: "Lacuna";
+}
+
+.dot {
+  width: 28px;
+  height: 28px;
+  background-color: #efbd01;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.text-container-2 {
+  font-size: 19px;
+  color: #3a0a1d;
+  font-family: "Lacuna";
+  padding: 50px;
+}
+
+.review { display: flex; }
+.c {margin-left: auto;}
+
+
+
+/*# sourceMappingURL=style.css.map */
