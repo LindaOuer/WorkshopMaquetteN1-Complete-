@@ -1,9 +1,11 @@
-.navbar {
-  height: 112px;
-}
+
 
 .nav-item {
   margin-left: 3rem;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #cca000;
 }
 
 .nav-link {
@@ -24,13 +26,11 @@
   transition: box-shadow 0.15s ease-in-out;
 }
 
+
 .rectangle {
   background-color: white;
-  height: 112px;
-  width: 122px;
-  padding-top: 0rem;
+  
 }
-
 .center {
   position: relative;
   top: 25%;
@@ -39,22 +39,38 @@
 }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: 12rem;
-  text-align: center;
-  color: white;
+  padding-top: 20rem; 
+  padding-bottom: 5rem;
   background-image: url("../assets/banner.png");
   background-attachment: scroll;
+  background-repeat: no-repeat;
+
   background-position: center center;
   background-size: cover;
 }
 
-@media (min-width: 768px) {
+
+
+
+
+@media (min-width: 990px) {
+  .rectangle {
+    background-color: white;
+     height: 122px;
+    width: 122px; 
+    padding-top: 0rem;
+  }
+
+  .navbar {
+    height: 122px;
+  }
   header.masthead {
-    padding-top: 30rem;
-    padding-bottom: 40rem;
+    padding-top: 40rem;
+    padding-bottom: 25rem;
   }
 }
+
+
 .page-footer {
   background-color: #e4bc01;
   height: 174px;
