@@ -91,18 +91,18 @@ header.masthead {
   background-color: #3a0a1d;
 }
 
-.container1 {
+.page-section-container {
   margin: auto;
   width: 70%;
   padding: 10px;
 }
 
-.container-content {
+.first-section-content {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.text-container {
+.first-section-text {
   font-size: 17px;
   color: #eaeaea;
   font-family: "Lacuna";
@@ -123,19 +123,19 @@ header.masthead {
   border-radius: 50%;
 }
 
-.team-member img {
+.image-container img {
   width: 100%;
 }
 
-.text-container-2 {
+.second-section-text {
   font-size: 19px;
   color: #3a0a1d;
   font-family: "Lacuna";
   padding: 50px;
 }
 
-.review { display: flex; }
-.c {margin-left: auto;}
+.review-btn-container { display: flex; }
+.more-review-btn {margin-left: auto;}
 
 
 
