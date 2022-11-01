@@ -138,5 +138,12 @@ header.masthead {
 .more-review-btn {margin-left: auto;}
 
 
+@media (max-width: 990px) and (min-width: 737px) {
+  .page-section-container {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
