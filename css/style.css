@@ -38,8 +38,8 @@
   width: 50%;
 }
 
-header.masthead {
-  padding-top: 20rem; 
+.masthead {
+  padding-top: 26rem; 
   padding-bottom: 5rem;
   background-image: url("../assets/banner.png");
   background-attachment: scroll;
@@ -64,7 +64,7 @@ header.masthead {
   .navbar {
     height: 122px;
   }
-  header.masthead {
+  .masthead {
     padding-top: 40rem;
     padding-bottom: 25rem;
   }
