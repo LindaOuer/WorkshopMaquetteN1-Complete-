@@ -1,0 +1,140 @@
+.nav-link:hover,
+.nav-link:focus {
+  color: #e4bc01;
+}
+
+.nav-item {
+  margin-left: 3rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "League Gothic", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: white;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.rectangle {
+  background-color: white;
+}
+
+.center {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+}
+
+.masthead {
+  /* padding-top: 26rem;
+  padding-bottom: 5rem; */
+  /* background-image: url("../assets/banner.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+}
+
+@media (min-width: 990px) {
+  .rectangle {
+    background-color: white;
+    height: 122px;
+    width: 122px;
+    padding-top: 0rem;
+  }
+  .masthead {
+    /* padding-top: 40rem;
+    padding-bottom: 25rem; */
+  }
+  .navbar {
+    height: 122px;
+  }
+}
+.page-footer {
+  background-color: #e4bc01;
+  height: 174px;
+}
+
+.about {
+  font-size: 1.2rem;
+  font-family: "League Gothic", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.lorem {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.page-section {
+  min-height: 370px;
+  background-color: #3a0a1d;
+}
+
+.page-section-container {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.first-section-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.first-section-text {
+  font-size: 17px;
+  color: #eaeaea;
+  font-family: "Lacuna";
+}
+
+.dot-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 20px;
+}
+
+.dot {
+  width: 28px;
+  height: 28px;
+  background-color: #efbd01;
+  border-radius: 50%;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.second-section-text {
+  font-size: 19px;
+  color: #3a0a1d;
+  font-family: "Lacuna";
+  padding: 50px;
+}
+
+.review-btn-container {
+  display: flex;
+}
+
+.more-review-btn {
+  margin-left: auto;
+}
+.more-review-btn .page-section-container {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

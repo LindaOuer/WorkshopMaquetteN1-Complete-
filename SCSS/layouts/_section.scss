@@ -1,0 +1,38 @@
+.section {
+    background-color: $secondary-color;
+    margin-top: 0;
+    padding-bottom: 3rem;
+
+    &_content {
+        @include flexboxCenter;
+
+        padding: 2rem;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &_part {
+        margin: 0 2rem;
+
+        &-dot {
+            @include flex(row, start, center, wrap);
+
+            column-gap: 15px;
+                padding: 20px;
+        }
+
+        .dot {
+            width: 25px;
+            height: 25px;
+            background-color: #efbd01;
+            border-radius: 50%;
+        }
+
+        &-text {
+            color: $font-color;
+        }
+    }
+
+}

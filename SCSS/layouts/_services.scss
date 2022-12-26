@@ -1,0 +1,41 @@
+.services {
+    &_container {
+        display: flex;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+
+    &_part {
+        @include flex(column);
+
+        padding: 2rem;
+
+        &-container {
+            @include flex(column);
+        }
+
+        &-quote {
+            align-self: flex-start;
+            margin-left: 2rem;
+
+            svg {
+                color: $quoteColor;
+                width: 36px;
+                height: 36px;
+            }
+        }
+
+        &-button {
+            align-self: flex-end;
+            margin-right: 2rem;
+        }
+
+        img {
+            @media screen and (max-width: 768px) {
+                max-width: 50%;
+            }
+        }
+    }
+}

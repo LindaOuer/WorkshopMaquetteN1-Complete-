@@ -1,0 +1,13 @@
+.btn {
+    border: none;
+    color: $color-dark;
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-warning {
+    @extend .btn;
+    background-color: $primary-color;
+}

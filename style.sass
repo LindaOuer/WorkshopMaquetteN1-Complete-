@@ -4,8 +4,10 @@ $purple: #3a0a1d
 $text-font: "Lacuna"
 $font-size-1: 17px
 $font-size-2: 19px
-.navbar
-  height: 112px
+
+.nav-link:hover,
+.nav-link:focus
+  color: $yellow
 
 .nav-item
   margin-left: 3rem
@@ -28,9 +30,9 @@ $font-size-2: 19px
 
 .rectangle
   background-color: $white
-  height: 112px
-  width: 122px
-  padding-top: 0rem
+  // height: 112px
+  // width: 122px
+  // padding-top: 0rem
 
 .center
   position: relative
@@ -47,10 +49,18 @@ $font-size-2: 19px
   background-position: center center
   background-size: cover
 
-@media (min-width  :768px)
+@media (min-width  :990px)
+  .rectangle
+    background-color: white
+    height: 122px
+    width: 122px
+    padding-top: 0rem
   .masthead
-    padding-top: 30rem
-    padding-bottom: 40rem
+    padding-top: 40rem
+    padding-bottom: 25rem
+
+  .navbar
+    height: 122px
 
 .page-footer
   background-color: $yellow

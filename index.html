@@ -1,198 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script
-      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-dark fixed-top" id="mainNav">
-        <div class="container">
-          <div class="rectangle navbar-brand">
-            <img src="assets/logo.png" class="center" alt="logo" />
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            Menu
-            <i class="fas fa-bars ms-1"></i>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarResponsive"
-          >
-            <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Flexbox</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FontFace</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fontello</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Bootstrap</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <script
+            src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <input type="checkbox" id="navbar-toggle" />
+                <label for="navbar-toggle"
+                    ><i class="fa fa-bars fa-4x"></i
+                ></label>
+                <div class="navbar_logo">
+                    <img src="assets/logo.png" class="navbar_img" alt="logo" />
+                </div>
+                <div class="navbar_menu">
+                    <a class="navbar_link" href="#">Home</a>
+                    <a class="navbar_link" href="#">Flexbox</a>
+                    <a class="navbar_link" href="#">FontFace</a>
+                    <a class="navbar_link" href="#">Fontello</a>
+                    <a class="navbar_link" href="#">Bootstrap</a>
+                </div>
+            </nav>
 
-      <div class="masthead"></div>
-    </header>
-    <section class="page-section">
-      <div class="page-section-container">
-        <div class="first-section-content row text-left">
-          <div class="col-sm p-5">
-            <span class="dot-container">
-              <span class="dot"></span>
-            </span>
-            <p class="first-section-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
-          </div>
-          <div class="col-sm p-5">
-            <span class="dot-container">
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </span>
-            <p class="first-section-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
-          </div>
-          <div class="col-sm p-5">
-            <span class="dot-container">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </span>
-            <p class="first-section-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="page-section bg-light">
-      <div class="page-section-container">
-        <div class="row text-left">
-          <div class="col-md-6">
-            <div class="image-container">
-              <img class="mx-auto" src="assets/fleur.png" alt="Flower" />
+            <img src="assets/banner.png" alt="" class="responsive" />
+        </header>
+        <section class="section">
+            <div class="section_content">
+                <div class="section_part">
+                    <span class="section_part-dot">
+                        <span class="dot"></span>
+                    </span>
+                    <p class="section_part-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Minima maxime quam architecto quo inventore harum
+                        ex magni, dicta impedit.
+                    </p>
+                </div>
+                <div class="section_part">
+                    <span class="section_part-dot">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </span>
+                    <p class="section_part-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Minima maxime quam architecto quo inventore harum
+                        ex magni, dicta impedit.
+                    </p>
+                </div>
+                <div class="section_part">
+                    <span class="section_part-dot">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </span>
+                    <p class="section_part-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Minima maxime quam architecto quo inventore harum
+                        ex magni, dicta impedit.
+                    </p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="reviews-container">
-              <div class="row second-section-text">
-                <div class="quotion-marks">
-                  <i
-                    class="fas fa-quote-left pe-2"
-                    style="width: 36px; height: 36px; color: #616161"
-                  ></i>
+        </section>
+        <section class="services">
+            <div class="services_container">
+                <div class="services_part">
+                    <div class="services_part-container">
+                        <img
+                            class="responsive"
+                            src="assets/fleur.png"
+                            alt="Flower"
+                        />
+                    </div>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit. Minima maxime quam architecto quo inventore
-                  harum ex magni, dicta impedit.
-                </p>
-                <div class="review-btn-container">
-                  <div class="more-review-btn">
-                    <button type="button" class="btn btn-warning">More</button>
-                  </div>
+                <div class="services_part">
+                    <div class="services_part-container">
+                        <div class="services_part-quote">
+                            <i class="fas fa-quote-left pe-2"></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Minima maxime quam architecto quo inventore
+                            harum ex magni, dicta impedit. Minima maxime quam
+                            architecto quo inventore harum ex magni, dicta
+                            impedit.
+                        </p>
+                        <div class="services_part-button">
+                            <button type="button" class="btn btn-warning">
+                                More
+                            </button>
+                        </div>
+                    </div>
+                    <div class="services_part-container">
+                        <div class="services_part-quote">
+                            <i
+                                class="fas fa-quote-left pe-2"
+                                style="
+                                    width: 36px;
+                                    height: 36px;
+                                    color: #616161;
+                                "
+                            ></i>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Minima maxime quam architecto quo inventore
+                            harum ex magni, dicta impedit. Minima maxime quam
+                            architecto quo inventore harum ex magni, dicta
+                            impedit.
+                        </p>
+                        <div class="services_part-button">
+                            <button type="button" class="btn btn-warning">
+                                More
+                            </button>
+                        </div>
+                    </div>
+                    
                 </div>
-              </div>
-              <div class="row second-section-text">
-                <div class="a">
-                  <i
-                    class="fas fa-quote-left pe-2"
-                    style="width: 36px; height: 36px; color: #616161"
-                  ></i>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Minima maxime quam architecto quo inventore harum ex magni,
-                  dicta impedit. Minima maxime quam architecto quo inventore
-                  harum ex magni, dicta impedit.
-                </p>
-                <div class="review-btn-container">
-                  <div class="more-review-btn">
-                    <button type="button" class="btn btn-warning">More</button>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="page-footer">
-      <div class="container">
-        <div class="d-flex flex-column align-items-center">
-          <div class="mt-4 about">ABOUT</div>
-          <div class="mt-3 lorem">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </div>
-        </div>
-        <div class="container d-flex justify-content-center mt-3">
-          <span class="fa-stack fa-1x">
-            <i class="fas fa-circle fa-stack-2x" style="color: #ffffff"></i>
-            <i
-              class="fa-brands fa-instagram fa-stack-1x"
-              style="color: #e4bc01"
-            ></i>
-          </span>
-          <span class="fa-stack fa-1x">
-            <i class="fas fa-circle fa-stack-2x" style="color: #ffffff"></i>
-            <i
-              class="fa-brands fa-facebook fa-stack-1x"
-              style="color: #e4bc01"
-            ></i>
-          </span>
-          <span class="fa-stack fa-1x">
-            <i class="fas fa-circle fa-stack-2x" style="color: #ffffff"></i>
-            <i
-              class="fa-brands fa-twitter fa-stack-1x"
-              style="color: #e4bc01"
-            ></i>
-          </span>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        </section>
+        <footer class="footer">
+            <div class="footer_content">
+                <div class="footer_about">
+                    <h1>ABOUT</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="footer_social">
+                    <span class="footer_social-circle">
+                        <i class="fa-brands fa-instagram"></i>
+                    </span>
+                    <span class="footer_social-circle">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </span>
+                    <span class="footer_social-circle">
+                        <i class="fa-brands fa-twitter"></i>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

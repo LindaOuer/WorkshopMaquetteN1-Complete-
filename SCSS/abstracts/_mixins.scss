@@ -1,0 +1,30 @@
+@mixin flexboxCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex($direction, $justify: center, $align: center, $wrap: nowrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint <=$bp-medium {
+        @media only screen and (max-width:$breakpoint ) {
+            // @content contains all childs, so media query mixin acts like wrapper
+            @content;
+        }
+    }
+
+    @else {
+
+        // for big desktops, min-width is needed
+        @media only screen and (min-width: $breakpoint) {
+            @content;
+        }
+    }
+}
